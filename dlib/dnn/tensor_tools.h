@@ -1585,7 +1585,7 @@ namespace dlib { namespace tt
         }
 
     private:
-        std::vector<std::unique_ptr<::dlib::cuda::enable_peer_access>> epa;
+        std::vector<std::unique_ptr< ::dlib::cuda::enable_peer_access>> epa;
         std::vector<std::vector<tensor*>> accessible_groups;
         float scale;
 
